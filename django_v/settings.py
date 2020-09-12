@@ -42,7 +42,10 @@ INSTALLED_APPS = [
     'corsheaders',
 ]
 
-CORS_ORIGIN_ALLOW_ALL = True
+CORS_ORIGIN_WHITELIST = [
+    'http://localhost:4000',
+    'https://v-django.herokuapp.com',
+]
 ALLOWED_HOSTS = ['django-v.herokuapp.com', '127.0.0.1']
 
 MIDDLEWARE = [
