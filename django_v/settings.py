@@ -43,7 +43,7 @@ INSTALLED_APPS = [
 ]
 
 CORS_ORIGIN_ALLOW_ALL = True
-ALLOWED_HOSTS = ['django-v.herokuapp.com/']
+ALLOWED_HOSTS = ['django-v.herokuapp.com']
 
 MIDDLEWARE = [
     'whitenoise.middleware.WhiteNoiseMiddleware',
