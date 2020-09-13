@@ -18,8 +18,6 @@ Local host: *http://127.0.0.1:8000/*
 
 Allowed Methods: **GET, POST, PUT, PATCH, OPTIONS, DELETE**
 
-Author: polomac.milan@gmail.com
-
 ## Getting Started <a name = "getting_started"></a>
 
 Run: python **manage.py runserver**
